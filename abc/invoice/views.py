@@ -100,10 +100,9 @@ def view_PDF(request, id=None):
 
     context = {
         "company": {
-            "name": "Jack Sparrow",
-            "address" :"24 Mantra, Khadki, Pune, MH",
-            "phone": "(+91)- 866 877 9294",
-            "email": "contact@js.com",
+            "name": "JAY ANJANIKUMAR ENTERPRISES",
+            "address" :"DURGA NAGAR, DHARMABAD, NANDED, MS",
+            "email": "GSTIN : 27BPYPM7250L2ZX",
         },
         "invoice_id": invoice.id,
         "invoice_total": invoice.total_amount,
